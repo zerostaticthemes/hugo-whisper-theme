@@ -5,18 +5,21 @@
     font-family: $font-family-base;
   }
   p {
-    width: 60%;
     margin: 0 auto;
     font-size: 1.2rem;
     font-weight: lighter;
     margin-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
   }
   .terminal {
-    background: #eaeaea;
-    border-radius: 3px;
-    width: 80%;
-    margin: 0 auto;
     @include whitebox();
+    border-radius: 3px;
+    margin: 0 auto;
     margin-top: -200px;
     img {
       width: 100%;

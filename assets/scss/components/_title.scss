@@ -1,15 +1,15 @@
 .title {
-  font-size: 2.4rem;
-  line-height: 1.2;
+  font-size: 2.7rem;
+  line-height: 1.1;
   font-family: $font-family-base;
   letter-spacing: -0.2px;
   font-weight: 100;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   @include media-breakpoint-up(md) {
     font-size: 3rem;
+    margin-bottom: 30px;
   }
 }
-
 .title-summary {
   font-size: 1.6rem;
   line-height: 1.4;

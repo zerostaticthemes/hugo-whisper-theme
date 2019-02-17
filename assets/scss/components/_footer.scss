@@ -1,5 +1,5 @@
 .footer {
-  background: $secondary;
+  background: #eaeaea;
   padding-top: 20px;
   padding-bottom: 20px;
   .footer-inner {
@@ -24,7 +24,7 @@
       flex: 0 0 120px;
     }
   }
-  ul {
+  ul.footer-menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,14 +32,14 @@
     li {
       display: block;
       margin-right: 10px;
-      color: lighten($secondary, 50%);
+      color: #333;
       font-size: 0.9rem;
       line-height: 1.8;
       &:last-of-type {
         margin-right: 0;
       }
       a {
-        color: lighten($secondary, 50%);
+        color: #333;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
@@ -47,7 +47,7 @@
       }
       &.copyright {
         font-weight: bold;
-        color: lighten($secondary, 50%);
+        color: #333;
         display: none;
         @include media-breakpoint-up(md) {
           display: inline-block;
