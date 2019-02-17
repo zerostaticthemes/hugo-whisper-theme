@@ -1,0 +1,20 @@
+baseURL = "www.example.com"
+languageCode = "en-us"
+title = "Hugo Whisper Theme"
+themesDir = "../.."
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Global menu section
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2

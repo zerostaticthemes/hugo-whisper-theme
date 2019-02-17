@@ -1,0 +1,26 @@
+.page-home {
+  text-align: center;
+  .title {
+    font-weight: lighter;
+    font-family: $font-family-base;
+  }
+  p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 40px;
+  }
+  .terminal {
+    background: #eaeaea;
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 auto;
+    @include whitebox();
+    margin-top: -200px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
