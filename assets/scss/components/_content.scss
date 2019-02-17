@@ -34,10 +34,19 @@
     font-style: italic;
     font-weight: normal;
   }
-  ul,
   ol {
     margin-top: 10px;
     margin-bottom: 20px;
+    list-style-type: decimal;
+    li {
+      margin-bottom: 5px;
+      margin-left: 20px;
+    }
+  }
+  ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: disc;
     li {
       margin-bottom: 5px;
       margin-left: 20px;
@@ -54,14 +63,11 @@
     font-weight: 400;
   }
   h1 {
-    font-family: $font-family-serif;
-    line-height: 1.2;
+    font-family: $font-family-base;
+    font-size: 2.6rem;
+    line-height: 1.4;
     font-weight: 300;
     margin-bottom: 20px;
-    @include media-breakpoint-up(md) {
-      line-height: 1.2;
-      font-weight: 300;
-    }
   }
   h2 {
     font-size: 2.2rem;
@@ -72,13 +78,56 @@
     margin-bottom: 20px;
   }
   h3 {
-    font-size: 1.34rem;
-    line-height: 1.6;
+    font-size: 1.6rem;
+    line-height: 1.4;
     font-weight: 400;
     font-family: $font-family-base;
     margin-bottom: 20px;
-    @include media-breakpoint-up(md) {
-      line-height: 1.4;
-    }
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: $font-family-base;
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: $font-family-base;
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: $font-family-base;
+    margin-bottom: 20px;
+  }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: '\201C''\201D''\2018''\2019';
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+  table {
+    @extend .table;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }

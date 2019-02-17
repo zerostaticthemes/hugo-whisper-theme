@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Lora:400,700|Roboto+Mono:300,400");
 *,
 *::before,
@@ -5011,22 +5012,23 @@ a.text-dark:hover, a.text-dark:focus {
   .offset-xl-11 {
     margin-left: 91.66666667%; } }
 
-.table {
+.table, .content table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
   background-color: transparent; }
-  .table th,
-  .table td {
+  .table th, .content table th,
+  .table td,
+  .content table td {
     padding: 0.75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6; }
-  .table thead th {
+  .table thead th, .content table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
-  .table tbody + tbody {
+  .table tbody + tbody, .content table tbody + tbody {
     border-top: 2px solid #dee2e6; }
-  .table .table {
+  .table .table, .content table .table, .table .content table, .content .table table, .content table table {
     background-color: #fff; }
 
 .table-sm th,
@@ -5147,12 +5149,12 @@ a.text-dark:hover, a.text-dark:focus {
   .table-hover .table-active:hover > th {
     background-color: rgba(22, 24, 27, 0.075); }
 
-.table .thead-dark th {
+.table .thead-dark th, .content table .thead-dark th {
   color: #fff;
   background-color: #212529;
   border-color: #32383e; }
 
-.table .thead-light th {
+.table .thead-light th, .content table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
   border-color: #dee2e6; }
@@ -5693,12 +5695,18 @@ ol {
   .content em {
     font-style: italic;
     font-weight: normal; }
-  .content ul,
   .content ol {
     margin-top: 10px;
-    margin-bottom: 20px; }
-    .content ul li,
+    margin-bottom: 20px;
+    list-style-type: decimal; }
     .content ol li {
+      margin-bottom: 5px;
+      margin-left: 20px; }
+  .content ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: disc; }
+    .content ul li {
       margin-bottom: 5px;
       margin-left: 20px; }
   .content a {
@@ -5710,14 +5718,11 @@ ol {
     color: #383f45;
     font-weight: 400; }
   .content h1 {
-    font-family: "Lora", Arial, sans-serif, -apple-system;
-    line-height: 1.2;
+    font-family: "Roboto", Arial, sans-serif, -apple-system;
+    font-size: 2.6rem;
+    line-height: 1.4;
     font-weight: 300;
     margin-bottom: 20px; }
-    @media (min-width: 768px) {
-      .content h1 {
-        line-height: 1.2;
-        font-weight: 300; } }
   .content h2 {
     font-size: 2.2rem;
     line-height: 1.4;
@@ -5726,14 +5731,47 @@ ol {
     font-family: "Roboto", Arial, sans-serif, -apple-system;
     margin-bottom: 20px; }
   .content h3 {
-    font-size: 1.34rem;
-    line-height: 1.6;
+    font-size: 1.6rem;
+    line-height: 1.4;
     font-weight: 400;
     font-family: "Roboto", Arial, sans-serif, -apple-system;
     margin-bottom: 20px; }
-    @media (min-width: 768px) {
-      .content h3 {
-        line-height: 1.4; } }
+  .content h4 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: "Roboto", Arial, sans-serif, -apple-system;
+    margin-bottom: 20px; }
+  .content h5 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: "Roboto", Arial, sans-serif, -apple-system;
+    margin-bottom: 20px; }
+  .content h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: "Roboto", Arial, sans-serif, -apple-system;
+    margin-bottom: 20px; }
+  .content blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "“" "”" "‘" "’"; }
+  .content blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em; }
+  .content blockquote p {
+    display: inline; }
+  .content img {
+    max-width: 100%;
+    height: auto; }
 
 .strip {
   background-repeat: no-repeat; }
