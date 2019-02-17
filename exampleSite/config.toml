@@ -8,7 +8,6 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
-# Global menu section
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -18,3 +17,17 @@ pygmentsUseClasses = true
     name = "Docs"
     url = "/docs/"
     weight = 2
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Hugo Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal."
+    meta_og_title = "Hugo Whisper Theme"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-whisper.netlify.com"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
