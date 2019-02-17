@@ -29,8 +29,12 @@ $paragraph-color: $black;
     font-size: 0.9rem;
     line-height: 1.4;
   }
-  .highlight {
-    margin-bottom: 20px;
+  strong {
+    font-weight: bold;
+  }
+  em {
+    font-style: italic;
+    font-weight: normal;
   }
   ul,
   ol {

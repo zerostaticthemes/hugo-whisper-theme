@@ -5639,7 +5639,6 @@ ol {
   border: 2px solid #fff; }
 
 .title {
-  color: #222222;
   font-size: 2.4rem;
   line-height: 1.2;
   font-family: "Roboto", Arial, sans-serif, -apple-system;
@@ -5649,6 +5648,17 @@ ol {
   @media (min-width: 768px) {
     .title {
       font-size: 3rem; } }
+
+.title-summary {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: "Roboto", Arial, sans-serif, -apple-system;
+  letter-spacing: -0.2px;
+  font-weight: 200;
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .title-summary {
+      font-size: 1.6rem; } }
 
 .content {
   -webkit-font-smoothing: antialiased; }
@@ -5676,8 +5686,11 @@ ol {
     font-family: "Roboto Mono", monospace;
     font-size: 0.9rem;
     line-height: 1.4; }
-  .content .highlight {
-    margin-bottom: 20px; }
+  .content strong {
+    font-weight: bold; }
+  .content em {
+    font-style: italic;
+    font-weight: normal; }
   .content ul,
   .content ol {
     margin-top: 10px;
@@ -5777,6 +5790,9 @@ ol {
   box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
   background: #ffffff;
   padding: 10px; }
+
+.highlight {
+  margin-bottom: 20px; }
 
 .highlight .hll {
   background-color: #ffffcc; }

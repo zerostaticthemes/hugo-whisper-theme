@@ -5,35 +5,48 @@ draft: false
 weight: 4
 ---
 
-### Homepage meta tags
+## Syntax Highlighting
 
-Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can configure these values in the `config.toml`
+Whisper uses the in-built code highlighting that ships with hugo. https://gohugo.io/content-management/syntax-highlighting/
 
+You can insert code snippets in any markdown file by using standard code fences syntax ie:
+
+````
 ```
-// config.toml
-[params]
-  google_analytics_id=""
+insert code here
+```
+````
 
-  [params.homepage_meta_tags]
-    meta_description = "a description of your website."
-    meta_og_title = "My Theme"
-    meta_og_type = "website"
-    meta_og_url = "https://www.mywebsite.com"
-    meta_og_image = "https://www.mywebsite.com/images/tn.png"
-    meta_og_description = "a description of your website."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@mytwitterhandle"
-    meta_twitter_creator = "@mytwitterhandle"
+You can specify the langauge by adding a declaration after the backticks
+
+````
+```javascript
+insert code here
+```
+````
+
+### Pygments Options
+
+The following code highlighting options are configured in the `config.toml`
+
+```toml
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
 ```
 
-### Set meta tags on a per template/page basis
+## Main menu
 
-You can set meta tags on a per template basis using a block. For example, you might want to write a custom meta description for the `/services` page. You can insert any valid HTML meta data inside the `{{ define "meta_tags }}` block at the top of a template.
+Configure the main menu by editing the `config.toml`
 
-```
-// layouts/services/list.html
-...
+```toml
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-{{ define "meta_tags" }}
-    <meta name="description" content="We offer a variety of services in the finance industry" />
+[[menu.main]]
+name = "Docs"
+url = "/docs/"
+weight = 2
 ```

@@ -10,7 +10,7 @@
 </div>
 
 {{ range.Pages }}
-<div class="content">{{.Content}}</div>
+{{ .Render "summary" }}
 {{ end }}
 
 {{ end }}
