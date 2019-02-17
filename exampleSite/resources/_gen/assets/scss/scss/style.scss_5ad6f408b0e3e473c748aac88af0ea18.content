@@ -5714,7 +5714,7 @@ ol {
   .content p {
     font-family: "Roboto", Arial, sans-serif, -apple-system;
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.4;
     color: #383f45;
     font-weight: 400; }
   .content h1 {
@@ -6122,11 +6122,6 @@ ol {
       .page-home p {
         width: 60%; } }
   .page-home .terminal {
-    border: 1px solid #dcdcdc;
-    border-radius: 3px;
-    box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
-    background: #ffffff;
-    padding: 10px;
     border-radius: 3px;
     margin: 0 auto;
     margin-top: -200px; }
