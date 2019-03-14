@@ -41,6 +41,8 @@
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
+@import 'libraries/pygments/github';
+
 
 // Components
 @import 'components/reset';
@@ -59,7 +61,6 @@
 @import 'components/content';
 @import 'components/strip';
 @import 'components/whitebox';
-@import 'components/highlight';
 @import 'components/overview';
 
 // Pages
