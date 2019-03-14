@@ -5306,6 +5306,13 @@ ol {
   padding: 0;
   list-style: none; }
 
+p {
+  font-family: "Roboto", Arial, sans-serif, -apple-system;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #383f45;
+  font-weight: 400; }
+
 .page {
   display: flex;
   min-height: 100vh;
