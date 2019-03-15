@@ -20,25 +20,25 @@
   <div class="container pt-4 pb-16">
     <div class="row">
       <div class="col-12">
-        <h1 class="title">{{ .Title }}</h1>
+        <h1 class="title">{{ .Title | default .Site.Title }}</h1>
         <div class="content">
-          {{ .Content }}
+          {{ .Content | default .Site.Params.homepage_intro }}
         </div>
-        <a class="button button-primary mb-2" href="{{ .Page.Params.button_link | relURL }}">
-          {{ .Page.Params.button_text }}
+        <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
+          {{ .Site.Params.homeoage_button_text }}
         </a>
       </div>
     </div>
   </div>
 </div>
 
-{{ if .Page.Params.image }}
+{{ if .Site.Params.homepage_image }}
 <div class="strip">
   <div class="container pt-4 pb-4">
     <div class="row justify-content-center">
       <div class="col-12 col-md-10">
         <div class="terminal">
-          <img src="{{ .Page.Params.image | absURL}}" />
+          <img src="{{ .Site.Params.homepage_image | absURL}}" />
         </div>
       </div>
     </div>
