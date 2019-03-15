@@ -22,7 +22,11 @@
       <div class="col-12">
         <h1 class="title">{{ .Title | default .Site.Title }}</h1>
         <div class="content">
-          {{ .Content | default .Site.Params.homepage_intro }}
+          {{ if .Content }}
+          {{ .Content }}
+          {{ else }}
+          <p>{{ .Site.Params.homepage_intro }}</p>
+          {{ end }}
         </div>
         <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
           {{ .Site.Params.homeoage_button_text }}
@@ -38,7 +42,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-10">
         <div class="terminal">
-          <img src="{{ .Site.Params.homepage_image | absURL}}" />
+          <img src="{{ .Site.Params.homepage_image | relURL}}" />
         </div>
       </div>
     </div>
