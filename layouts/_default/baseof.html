@@ -27,7 +27,7 @@
     {{ partial "header.html" . }}
 
     {{ $displaySidebar := false }}
-    {{ range site.Params.mainSections }}
+    {{ range .Site.Params.mainSections }}
     {{ if eq $.Section . }}
     {{ $displaySidebar = true }}
     {{ end }}
