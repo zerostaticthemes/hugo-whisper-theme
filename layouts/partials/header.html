@@ -1,10 +1,10 @@
 <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="{{ "images/logo.svg" | absURL }}" /></a>
+      <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="{{ .Site.Params.logo.standard | absURL }}" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="{{ "images/logo-mobile.svg" | absURL }}" /></a>
+      <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="{{ .Site.Params.logo.mobile | absURL }}" /></a>
     </div>
     {{ partial "main-menu.html" . }}
     {{ partial "hamburger.html" . }}

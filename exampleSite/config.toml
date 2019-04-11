@@ -35,3 +35,7 @@ pygmentsUseClasses = true
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
+
+  [params.logo]
+      mobile = "images/logo-mobile.svg"
+      standard  = "images/logo.svg"
