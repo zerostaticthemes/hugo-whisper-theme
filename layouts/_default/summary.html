@@ -3,5 +3,5 @@
   <img alt="{{ .Title }}" src="{{ .Params.image }}" />
   {{ end}}
   <h2 class="title-summary"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <p>{{ .Content | plainify | truncate 140 }}</p>
+  <p>{{ htmlUnescape .Content | plainify | truncate 140 }}</p>
 </div>
