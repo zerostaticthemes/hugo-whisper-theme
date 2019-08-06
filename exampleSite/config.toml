@@ -25,6 +25,9 @@ pygmentsUseClasses = true
   homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
   homepage_image = '/images/terminal.gif'
 
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
   [params.homepage_meta_tags]
     meta_description = "Hugo Whisper is a documentation theme built with Hugo."
     meta_og_title = "Hugo Whisper Theme"
