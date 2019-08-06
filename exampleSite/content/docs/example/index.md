@@ -6,6 +6,8 @@ weight: 7
 
 Whisper is a minimal documentation theme built for Hugo. The design and functionality is intentionally minimal.
 
+<!--more-->
+
 ## Quickstart
 
 Copy or git clone this theme into the sites themes folder `mynewsite/themes`
