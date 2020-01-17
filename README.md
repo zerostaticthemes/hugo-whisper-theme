@@ -121,3 +121,7 @@ hugo server
 ```
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+
+## License
+
+If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
