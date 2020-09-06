@@ -3,9 +3,8 @@
 Whisper is a minimal documentation theme built for Hugo. The design and functionality is intentionally minimal.
 
 
-[Live Demo](https://hugo-whisper.netlify.com/) |
-[Installation](#installation) |
-[Zerostatic Themes](https://www.zerostatic.io/theme/hugo-whisper/)
+[Live Demo](https://hugo-whisper.netlify.app/) |
+[Zerostatic Themes](https://www.zerostatic.io/)
 
 ![Hugo Whisper Theme screenshot](https://github.com/JugglerX/hugo-whisper-theme/blob/master/images/screenshot-with-border.png)
 
