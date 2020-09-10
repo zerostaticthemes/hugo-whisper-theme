@@ -15,25 +15,25 @@ $container-max-widths: (
 
 $grid-gutter-width: 20px;
 
-$primary: #1de9b6;
-$secondary: #ffca28;
-$black: #212529;
+$primary: #1de9b6 !default;
+$secondary: #ffca28 !default;
+$black: #212529 !default;
 
 // Links
-$link-color: $primary;
-$link-decoration: none;
-$link-hover-color: lighten($primary, 20%);
-$link-hover-decoration: underline;
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: lighten($primary, 20%) !default;
+$link-hover-decoration: underline !default;
 
 // Fonts
-$font-size-base: 1rem; // Assumes the browser default, typically `16px`
-$font-family-base: 'Roboto', Arial, sans-serif, -apple-system;
-$font-family-serif: 'Lora', Arial, sans-serif, -apple-system;
-$font-family-mono: 'Roboto Mono', monospace;
-$line-height-base: 1.4;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-family-base: 'Roboto', Arial, sans-serif, -apple-system !default;
+$font-family-serif: 'Lora', Arial, sans-serif, -apple-system !default;
+$font-family-mono: 'Roboto Mono', monospace !default;
+$line-height-base: 1.4 !default;
 
 // Headings & Paragraph
-$paragraph-color: #333;
+$paragraph-color: #333 !default;
 
 $spacer: 1rem;
 $spacers: ();
