@@ -6,7 +6,7 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 [Live Demo](https://hugo-whisper.netlify.app/) |
 [Zerostatic Themes](https://www.zerostatic.io/)
 
-![Hugo Whisper Theme screenshot](https://github.com/JugglerX/hugo-whisper-theme/blob/master/images/screenshot-with-border.png)
+![Hugo Whisper Theme screenshot](https://www.zerostatic.io/theme/hugo-whisper/hugo-whisper-screenshot.png)
 
 ## Theme features
 
@@ -76,12 +76,12 @@ Copy or git clone this theme into the sites themes folder `mynewsite/themes`
 
 ```
 cd mynewsite
-git clone https://github.com/jugglerx/hugo-whisper-theme.git themes/hugo-whisper-theme
+git clone https://github.com/zerostaticthemes/hugo-whisper-theme.git themes/hugo-whisper-theme
 ```
 
 #### Install from .zip file
 
-You can download the .zip file located here https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip.
+You can download the .zip file located here https://github.com/zerostaticthemes/hugo-whisper-theme/archive/master.zip.
 
 Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-whisper-theme-master` -> `hugo-whisper-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-whisper-theme`
 
