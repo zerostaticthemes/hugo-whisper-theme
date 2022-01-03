@@ -6,6 +6,8 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 [Live Demo](https://hugo-whisper.netlify.app/) |
 [Zerostatic Themes](https://www.zerostatic.io/)
 
+<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ![Hugo Whisper Theme screenshot](https://www.zerostatic.io/theme/hugo-whisper/hugo-whisper-screenshot.png)
 
 ## Theme features
@@ -123,6 +125,13 @@ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
-## License
+### Other Hugo Themes by Zerostatic
 
-If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
+- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme)
+- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme)
+- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme)
+- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/)
+- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/)
+
+
+🇦🇺 **Made in Australia** by Robert Austin - leave a star mate!
