@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Lora:400,700|Roboto+Mono:300,400');
 
 // Bootstrap
-@import 'bootstrap/functions';
 @import 'bootstrap-variables';
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
-@import 'bootstrap/reboot';
-@import 'bootstrap/utilities';
-@import 'bootstrap/grid';
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/bootstrap-utilities';
 @import 'bootstrap/tables';
 
 // Libraries
@@ -34,6 +31,7 @@
 @import 'components/whitebox';
 @import 'components/overview';
 @import 'components/anchor';
+@import 'components/social';
 
 // Pages
 @import 'pages/home';
@@ -50,24 +48,3 @@ body {
   padding-left: $grid-gutter-width;
   padding-right: $grid-gutter-width;
 }
-
-// Display breakpoints for DEV
-// body:after {
-//   color: #000000;
-//   font-size: 12px;
-//   padding: 5px;
-//   font-weight: bold;
-//   right: 10px;
-//   position: fixed;
-//   text-align: center;
-//   text-transform: uppercase;
-//   bottom: 10px;
-//   width: 200px;
-//   z-index: 9999;
-//   border: solid 1px #000000;
-//   @each $name, $value in $grid-breakpoints {
-//     @include media-breakpoint-up($name) {
-//       content: "#{$name} - min-width: #{$value}";
-//     }
-//   }
-// }

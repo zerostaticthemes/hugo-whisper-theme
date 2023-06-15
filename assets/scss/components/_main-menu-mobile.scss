@@ -6,16 +6,14 @@
   width: 100%;
   height: 100vh;
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   &.open {
     opacity: 0.9;
-    visibility: visible;
+    display: flex;
     height: 100%;
     z-index: 20;
     li {

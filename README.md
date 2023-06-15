@@ -4,9 +4,8 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 
 
 [Live Demo](https://hugo-whisper.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io/)
-
-<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+[Zerostatic Themes](https://www.zerostatic.io/) | 
+[More Hugo Themes](https://www.zerostatic.io/themes/hugo/)
 
 ![Hugo Whisper Theme screenshot](https://www.zerostatic.io/theme/hugo-whisper/hugo-whisper-screenshot.png)
 
@@ -22,15 +21,11 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 - This theme generates documentation from markdown files located in `content/docs`
 - The "Home" page is not documentation, it can be used to introduce your project etc.
 
-### Features
-
-- Beautiful and clean typography for all semantic HTML elements
-
 ### SCSS
 
 - SCSS (Hugo Pipelines)
 - Responsive design
-- Bootstrap 4 grid and media queries only
+- Bootstrap 5.3
 
 ### Speed
 
@@ -42,72 +37,42 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 
 - Responsive mobile menu managed in `config.toml`
 
-### Content
+## Installation
 
-- Documentation examples included, using all markdown syntax
+**1. Install Hugo**
 
-# Installation
+To use this theme you will first need to have Hugo installed. Please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
 
-To use this theme you will need to have Hugo installed. If you don't already have Hugo installed please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
+⚠️ **Note:** Check your Hugo version - **Hugo Extended** is required!
 
-### Check Hugo version (Hugo 0.51+ Extended is required)
+This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets which means if you not using the Hugo extended version this theme will not work. To check your version of Hugo, run `hugo version`. Make sure you see **/extended** after the version number, for example _Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown_ You do not need to use version v0.51 specifically, it just needs to have the _/extended_ part.
 
-This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets. Please make sure you have the **Hugo Extended** version installed. If you are not using the extended version this theme will not not compile.
+**2. Create a new Hugo site**
 
-To check your version of Hugo, run:
-
-```
-hugo version
-```
-
-This will output the currently installed version of Hugo. Make sure you see `/extended` after the version number, for example `Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown` You do not need to use version v0.51 specifically, you can use any version of Hugo above 0.51. It just needs to have the `/extended` part
-
-### Create a new Hugo site
+This will create a fresh Hugo site in the folder `mynewsite`.
 
 ```
 hugo new site mynewsite
 ```
 
-This will create a fresh Hugo site in the folder `mynewsite`.
+**3. Install the theme**
 
-### Install theme
-
-Copy or git clone this theme into the sites themes folder `mynewsite/themes`
-
-#### Install with Git
+Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/hugo-whisper-theme`
 
 ```
 cd mynewsite
 git clone https://github.com/zerostaticthemes/hugo-whisper-theme.git themes/hugo-whisper-theme
 ```
 
-#### Install from .zip file
+**4. Copy the example content**
 
-You can download the .zip file located here https://github.com/zerostaticthemes/hugo-whisper-theme/archive/master.zip.
-
-Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-whisper-theme-master` -> `hugo-whisper-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-whisper-theme`
-
-### Add example content
-
-Copy the entire contents of the `mynewsite/themes/hugo-whisper-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`
-
-To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
+Copy the entire contents of the `mynewsite/themes/hugo-whisper-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
 
 ```
 cp -a themes/hugo-whisper-theme/exampleSite/. .
 ```
 
-### Update config.toml
-
-After you copy the `config.toml` into the root folder of your Hugo site you will need to update the `baseURL`, `themesDir` and `theme` values in `mynewsite/config.toml`
-
-```
-baseURL = "/"
-themesDir = "themes"
-theme = "hugo-whisper-theme"
-```
-
-### Run Hugo
+**6. Run Hugo**
 
 After installing the theme for the first time, generate the Hugo site.
 
@@ -125,13 +90,12 @@ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+
 ### Other Hugo Themes by Zerostatic
 
-- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme)
-- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme)
-- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme)
-- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/)
-- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/)
-
-
-🇦🇺 **Made in Australia** by Robert Austin - leave a star mate!
+- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open Source: business theme
+- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open Source: business theme
+- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open Source: blog theme
+- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium: advanced multi page business and marketing theme
+- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium: landing page / site builder theme
+- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium: bio / resume / personal theme

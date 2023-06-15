@@ -7,8 +7,6 @@
   text-transform: uppercase;
   color: lighten($primary, 50%);
   text-decoration: none;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
   border-radius: 3px;
   &:hover {
     color: #fff;
