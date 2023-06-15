@@ -11,29 +11,29 @@ Whisper is a minimal documentation theme built for Hugo. The design and function
 
 ## Theme features
 
-### Content Types
+**Content Types**
 
 - Docs (Markdown)
 - Homepage
 
-### Content Management
+**Content Management**
 
 - This theme generates documentation from markdown files located in `content/docs`
 - The "Home" page is not documentation, it can be used to introduce your project etc.
 
-### SCSS
+**SCSS**
 
 - SCSS (Hugo Pipelines)
 - Responsive design
 - Bootstrap 5.3
 
-### Speed
+**Speed**
 
 - 100/100 Google Lighthouse speed score
 - 21KB without images ⚡
 - Vanilla JS only
 
-### Menu
+**Menu**
 
 - Responsive mobile menu managed in `config.toml`
 
@@ -90,12 +90,25 @@ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+# Deploying to Netlify
 
-### Other Hugo Themes by Zerostatic
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-winston-theme)
 
-- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open Source: business theme
-- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open Source: business theme
-- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open Source: blog theme
-- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium: advanced multi page business and marketing theme
-- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium: landing page / site builder theme
-- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium: bio / resume / personal theme
+This theme includes a `netlify.toml` which is [configured to deploy to Netlify](https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508) from the `exampleSite` folder. If you have installed this theme into a new Hugo site and the exampleSite folder was copied or removed, you should delete the `netlify.toml` file.
+
+
+# Credits
+### More Hugo Themes by Zerostatic
+
+- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open-source business theme
+- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme) - Open-source documentation theme
+- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open-source business theme
+- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open-source blog theme
+- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium advanced multi page business & marketing theme
+- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium landing page + site builder theme
+- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium personal / bio theme
+- [Hugo Shared](https://www.zerostatic.io/theme/hugo-lever/) - Premium SAAS / landing page theme
+
+### Find hundreds more Hugo themes on Built At Lightspeed
+
+[<img alt="Built At Lightspeed Hugo themes directory screenshot" width="400px" src="https://www.zerostatic.io/images/builtatlightspeed-hugo-themes.jpg" />](https://builtatlightspeed.com/category/hugo)
