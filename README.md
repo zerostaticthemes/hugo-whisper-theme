@@ -89,15 +89,15 @@ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
-# Deploying to Netlify
+## Deploying to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-winston-theme)
 
 This theme includes a `netlify.toml` which is [configured to deploy to Netlify](https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508) from the `exampleSite` folder. If you have installed this theme into a new Hugo site and the exampleSite folder was copied or removed, you should delete the `netlify.toml` file.
 
 
-# Credits
-### More Hugo Themes by Zerostatic
+## Credits
+**More Hugo Themes by Zerostatic**
 
 - [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open-source business theme
 - [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme) - Open-source documentation theme
@@ -108,6 +108,6 @@ This theme includes a `netlify.toml` which is [configured to deploy to Netlify](
 - [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium personal / bio theme
 - [Hugo Shared](https://www.zerostatic.io/theme/hugo-lever/) - Premium SAAS / landing page theme
 
-### Find hundreds more Hugo themes on Built At Lightspeed
+**Find hundreds more Hugo themes on Built At Lightspeed**
 
 [<img alt="Built At Lightspeed Hugo themes directory screenshot" width="400px" src="https://www.zerostatic.io/images/builtatlightspeed-hugo-themes.jpg" />](https://builtatlightspeed.com/category/hugo)
