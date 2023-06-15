@@ -4,6 +4,5 @@
 
 [build.environment]
   HUGO_VERSION = "0.113.0"
-  HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
 
