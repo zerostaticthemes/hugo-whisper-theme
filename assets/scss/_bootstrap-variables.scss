@@ -15,9 +15,9 @@ $container-max-widths: (
 
 $grid-gutter-width: 20px;
 
-$primary: #1de9b6;
-$secondary: #ffca28;
-$black: #212529;
+$primary: #1de9b6 !default;
+$secondary: #ffca28 !default;
+$black: #212529 !default;
 
 // Links
 $link-color: $primary;
