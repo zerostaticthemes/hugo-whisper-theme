@@ -18,7 +18,7 @@ insert code here
 ```
 ````
 
-You can specify the langauge by adding a declaration after the backticks
+You can specify the language by adding a declaration after the backticks
 
 ````
 ```javascript
